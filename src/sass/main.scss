@@ -1,0 +1,354 @@
+// HERO STARTS //
+.hero{
+    padding: 50px;
+    height: 90vh;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.65),
+        rgba(0, 0, 0, 0.65)
+    ),
+    url('../../public/images/hero1.png');
+    &__description{
+        &--title{
+            color: #ffffff;
+            font-weight: 500;
+            font-size: 3rem;
+        }
+        &--text{
+            color: #ffffff;
+            font-size: .8.5rem;
+            font-size: 18px;
+            line-height: 2rem;
+        }
+        &--btn{
+            background-color: #FA4B14;
+            color: #ffffff;
+            box-sizing: border-box;
+            border-radius: 3px;
+            border:  none;
+            padding: 10px;
+
+        }
+    }
+}
+// HERO ENDS //
+
+// CONTACT US //
+.signup{
+    background: #D9D9D9;
+    padding: 100px;
+    &--title{
+        color: #454545;
+        font-weight: 500;
+        font-size: 2rem;
+    }
+    &--btn{
+        border: none;
+        background: #FA4B14;
+        padding: 10px;
+        color: #ffffff;
+        border-radius: 3px;
+        width: 15vw;
+    }
+}
+// CONTACT US END //
+
+// WHY US STARTS //
+.whyus{
+    padding: 50px;
+    color: #454545;
+    &--title{
+        font-weight: 500;
+        // color: #454545;
+        font-size: 2rem;
+        text-transform: uppercase;
+    }
+    &--hr{
+        border-top: 4px solid transparent;
+        height: 20px;
+        cursor: pointer;
+    }
+    &--hr:hover{
+        border-top: 4px solid #FA4B14;
+        height: 20px;
+        width: 10vw;
+        cursor: pointer;
+    }
+    &__description{
+        padding: 20px;
+        &--subtitle{
+            font-weight: 500;
+            font-size: 22px;
+        }
+        &--img{
+            width: 6vw;
+            margin-left: 50px;
+            align-self: center;
+        }
+    }
+}
+// WHY US ENDS //
+
+// WHATWEDO STARTS //
+.whatwedo{
+    padding: 30px;
+    color: #454545;
+    &__description{
+        &--title{
+            font-weight: 500;
+            font-size: 2rem;
+            cursor: pointer;
+        }
+        &--hr{
+            border-top: 4px solid transparent;
+            height: 20px;
+            width: 10vw;
+            cursor: pointer;
+        }
+        &--hr:hover{
+            border-top: 4px solid #FA4B14;
+            height: 20px;
+            width: 10vw;
+            cursor: pointer;
+        }
+        &--row{
+            background-color: red;
+            overflow: auto; 
+         }
+    }
+    &__row {
+        // width: 80%;
+        // margin: auto;
+        overflow: scroll;
+        // white-space: nowrap;
+        // background-color: red;
+        &::-webkit-scrollbar {
+            width: 40%;
+            // padding-right: 50px;
+            height: 5px;
+        }
+        &::-webkit-scrollbar-track {
+            background: #dfdfdf;
+            border-radius: 50px;
+            width: 50%;
+            margin: auto;
+        }
+        &::-webkit-scrollbar-track-piece:end {
+            margin-right:50px;
+        }
+        &::-webkit-scrollbar-track-piece:start {
+            margin-left:50px;
+        }
+        &::-webkit-scrollbar-thumb {
+            background: grey;
+        }
+    }
+   
+}
+// WHATWEDO STARTS //
+
+// VISIONMISSION STARTS //
+.visionmission{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url('../../public/images/Vision.png');
+    padding: 150px;
+    color: #ffffff;
+    background-size: cover;
+    &--title{
+        font-weight: 500;
+        font-size: 2rem;
+    }
+    &--hr{
+        width: 5vw;
+        background: transparent;
+        height: 5px;
+    }
+    &--hr:hover{
+        background: #FA4B14;
+        width: 10vw;
+    }
+
+}
+// VISIONMISSION ENDS //
+
+// PRODUCTS STARTS //
+.products{
+    &--title{
+        font-weight: 500;
+        font-size: 2rem;
+    }
+    &--hr{
+        width: 5vw;
+        background: transparent;
+        height: 5px;
+    }
+    &--hr:hover{
+        background: #FA4B14;
+        width: 10vw;
+    }
+    background-color: #D9D9D9;
+    &__description{
+        // background-color: red;
+        &--title{
+            font-weight: 500;
+            font-size: 1rem;
+            cursor: pointer;
+            // background-color:  blue;
+        }
+        &--img{
+            width: 30vw;
+            padding-left: 30px;
+            cursor: pointer;
+        }
+        &--price{
+            font-weight: 500;
+            font-size: 1rem;
+            
+        }
+        &--span{
+            text-decoration: line-through;
+            color: #C4C4C4
+        }
+        &--text{
+            text-decoration: line-through;
+            color: #C4C4C4
+        }
+    }
+}
+// OUR PARTNERS STARTS //
+.partners{
+    padding: 40px;
+    &--title{
+        font-weight: 700;
+        font-size: 2rem;
+        color: #454545;
+    }
+    &--hr{
+        width: 5vw;
+        background: transparent;
+        height: 5px;
+    }
+    &--hr:hover{
+        border-bottom: 2px solid #FA4B14;
+        cursor: pointer;
+        width: 10vw;
+    }
+}
+// OUR PARTNERS ENDS //
+// FOOTER STARTS //
+.footer{
+    // padding: 40px;
+    color: #ffffff;
+    background-color: #2F2E2C;
+    &--cap{
+        background-color:#FA4B14;
+        padding: 15px;
+        // position: sticky;
+        margin-top: -40px !important;
+        
+        // z-index: 99;
+    }
+    &--img{
+        width: 5vw;
+    }
+    &--btn{
+        padding: 10px;
+        border:  none;
+        background-color:#2F2E2C;
+        color: #ffffff;
+        border-radius: 3px;
+    }
+}
+// DETAILS STARTS //
+.details{
+    padding: 50px;
+    color: #454545;
+    &--title{
+        font-weight: 400;
+        font-size: 3.7rem;
+    }
+    &--price{
+        font-size: 1.5rem;
+        color: #FA4B14;
+    }
+    &--btn{
+        background: #454545;
+        border: none;
+        box-sizing: border-box;
+        padding: 10px;
+        border-radius: 3px;
+        color: #ffffff;
+        width: 13vw;
+    }
+}
+
+// DETAILS ENDS //
+
+// NAVBAR //
+.navi{
+    &__nav{
+        color: #ffffff;
+        position: relative;
+        padding: 80px;
+        background: #2F2E2C;
+        position: sticky;
+    }
+}
+// NAVBAR //
+// FOOTER ENDS //
+
+// MEDIA QUERY //
+@media screen and(max-width: 600px) {
+    .hero{
+        padding: 20px;
+    }
+    .whyus{
+        
+        &__description{
+            padding: 20px;
+            text-align: start;
+            &--subtitle{
+                font-weight: 500;
+                font-size: 22px;
+            }
+            &--img{
+                width: 16vw;
+                margin-left: 0;
+                align-self: center;
+            }
+        }
+    }
+    .visionmission{
+        padding: 30px;
+    }
+    .products{
+        text-align: center;
+        // padding: 0;
+        &--title{
+            font-weight: 500;
+            font-size: 2rem;
+        }
+        background-color: #D9D9D9;
+        &__description{
+            justify-content: center;
+            &--img{
+                width: 70vw;
+                padding-left: 30px;
+                background-size: cover;
+            }
+            &--title{
+                font-size: 2rem;
+            }
+            &--price{
+                font-size: 2rem;
+            }
+            &--span{
+                font-size: 1.5rem;
+            }
+            &--text{
+                font-size: 1.5rem;
+            }
+        }
+    }
+    
+}
+// MEDIA QUERY //
